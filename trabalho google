@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa - Google</title>
+    <style>
+        /* fazer o estilo da página */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffffff;
+            color: #202124;
+        }
+
+        /* cetralizar os bagulho  */
+        .google-container {
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        /* Logo maneira */
+        .google-logo {
+            width: 272px;
+            height: 92px;
+            margin-bottom: 20px;
+        }
+
+        /* lugarzin pra escreve */
+        .search-box {
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            width: 500px;
+            padding: 15px;
+            font-size: 16px;
+            border: 1px solid #dcdcdc;
+            border-radius: 24px;
+            outline: none;
+            text-align: center;
+        }
+
+        .search-input:focus {
+            border-color: #4285F4;
+        }
+    </style>
+</head>
+<body>
+    <div class="google-container">
+        <!-- Logo -->
+        <img src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo-color-272x92.png" alt="Google Logo" class="google-logo">
+
+        <!-- o quão complicado isso é não ta escrito, não tava né, acabei de escrever muahahahahah -->
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Pesquisar no Google">
+        </div>
+    </div>
+</body>
+</html>
